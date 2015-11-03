@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do list</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <body>
+  <div class="container">
+    <h1>Contacts</h1>
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="email" placeholder="Email Address">
+    <input type="text" id="pNumber" placeholder="Phone Number">
+    <input type="text" id="twitter" placeholder="Twitter Handle">
+
+    <!-- <input type="date" id='date'> -->
+    <button class="btn btn-default" id='add'>Add</button>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th class='col-xs-1'>Edit</th>
+          <th class='col-xs-4'>Name</th>
+          <th class='col-xs-4'>Email</th>
+          <th class='col-xs-4'>Phone Number</th>
+          <th class='col-xs-3'>Twitter</th>
+          <th class='col-xs-1'>Delete</th>
+        </tr>
+      </thead>
+      <tbody id='list'></tbody>
+      <tr id='sample'>
+        <td><input type="checkbox"><button class="save">save</button></td>
+        <td class='name textPlace' ></td>
+        <td class='email textPlace'></td>
+        <td class='pNumber textPlace'></td>
+        <td class='twitter textPlace'></td>
+        <td><a class='remove' href="#"><i class='fa fa-trash'></i></a></td>
+      </tr>
+    </table>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
