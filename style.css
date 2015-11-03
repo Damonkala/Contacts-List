@@ -1,0 +1,20 @@
+.container {
+	padding-top: 20px;
+}
+#add{
+	color: black;
+}
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: blue;
+	text-align: center;
+}
+
+table, th, tr{
+	border: 1px solid white;
+	width: 10px;
+	height: 10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: blue;
+	font-size: 25px;
+}
